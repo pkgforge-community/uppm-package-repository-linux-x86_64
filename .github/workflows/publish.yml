@@ -1,0 +1,154 @@
+name: publish
+
+on:
+  workflow_dispatch
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        pkg: [aria2, axel, base16, base64, bash, bat, bison, bc, bsdtar, bzip2, b3sum, cargo-c, cmake, coreutils, cppcheck, ctop, curl, curlie, darkhttpd, dua, duf, dufs, dust, diffutils, dog, dos2unix, doxygen, easyutils, ed, exa, fd, figlet, file, findutils, flex, fzf, gawk, gettext-tools, gh, gindent, git, glib-tools, glow, gm4, gmake, gnupg, go-md2man, gogs, golang, gotop, gotty, gperf, grep, grpc-plugins, gsed, gtar, gzip, hugo, jj, jq, lazygit, libxml2-utils, lolcat, lz4, lzip, mediainfo, mosh, mpg123, nasm, ninja, nushell, openssl, patch, patchelf, pigz, p7zip, pkg-config, pkgconf, pngquant, proot, putty, qpdf, qrencode, re2c, ripgrep, rsync, rtmpdump, sqlite3, starship, strace, svn-lite, swig, sysinfo, tcpdump, tealdeer, tig, tmux, tree, uctags, unrar, unzip, uppm, util-linux, volta, wget, xmake, xsltproc, xxd, xz, yasm, youtubedr, yq, zip, zopfli, zstd, zoxide]
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: |
+          cat > run.sh <<EOF
+          set -e
+
+          COLOR_GREEN='\033[0;32m'        # Green
+          COLOR_PURPLE='\033[0;35m'       # Purple
+          COLOR_OFF='\033[0m'             # Reset
+
+          echo() {
+              printf '%b\n' "\$*"
+          }
+
+          run() {
+              echo "\${COLOR_PURPLE}==>\${COLOR_OFF} \${COLOR_GREEN}\$@\${COLOR_OFF}"
+              eval "\$*"
+          }
+
+          run uname -a
+
+          run wget https://raw.githubusercontent.com/leleliu008/ppkg/master/ppkg
+          run chmod a+x ppkg
+          run ./ppkg setup --use-system-package-manager
+          run ./ppkg update
+          run ./ppkg install ${{ matrix.pkg }} --link-type=static-full
+
+          if [ -d ~/.ppkg/installed/${{ matrix.pkg }}/include ] ; then
+              rm -rf               ~/.ppkg/installed/${{ matrix.pkg }}/include
+              sed -i '/|include/d' ~/.ppkg/installed/${{ matrix.pkg }}/.ppkg/MANIFEST.txt
+          fi
+
+          if [ -d ~/.ppkg/installed/${{ matrix.pkg }}/lib ] ; then
+              rm -rf           ~/.ppkg/installed/${{ matrix.pkg }}/lib
+              sed -i '/|lib/d' ~/.ppkg/installed/${{ matrix.pkg }}/.ppkg/MANIFEST.txt
+          fi
+
+          ./ppkg pack ${{ matrix.pkg }} -o .
+
+
+          PACKAGE_SUMMARY="\$(./ppkg info-installed ${{ matrix.pkg }} summary)"
+          PACKAGE_WEB_URL="\$(./ppkg info-installed ${{ matrix.pkg }} web-url)"
+          PACKAGE_VERSION="\$(./ppkg info-installed ${{ matrix.pkg }} version)"
+
+          PACKAGE_BIN_FILENAME="${{ matrix.pkg }}-\$PACKAGE_VERSION-linux-x86_64.tar.xz"
+
+          PACKAGE_BIN_SHA="\$(sha256sum "\$PACKAGE_BIN_FILENAME" | cut -d ' ' -f1)"
+
+          PACKAGE_BIN_URL="https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/@TAGNAME@/\${PACKAGE_BIN_FILENAME}"
+
+          cat > ${{ matrix.pkg }}.yml <<EOF2
+          summary: \$PACKAGE_SUMMARY
+          webpage: \$PACKAGE_WEB_URL
+          version: \$PACKAGE_VERSION 
+          bin-url: \$PACKAGE_BIN_URL 
+          bin-sha: \$PACKAGE_BIN_SHA
+          EOF2
+
+          EOF
+
+          chmod +x run.sh
+
+      - run: docker run -v "$PWD:$PWD" -w "$PWD" --name alpine alpine sh run.sh
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.pkg }}
+          path: |
+            ${{ matrix.pkg }}-*.tar.xz
+            ${{ matrix.pkg }}.yml
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+
+    env:
+      GH_TOKEN: ${{ github.token }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: '*'
+          path: .
+          merge-multiple: true
+
+      - run: ls
+
+      - run: |
+          set -ex
+
+          TAGNAME="$(date +%Y.%m.%d)"
+
+          sed -i "s|@TAGNAME@|$TAGNAME|" *.yml
+
+          mv *.yml formula/
+
+          DIRNAME="uppm-formula-repository-linux-x86_64-$TAGNAME"
+
+          install -d "$DIRNAME"
+
+          ln -sfr ./formula "./$DIRNAME/formula"
+
+          tar cvJf "$DIRNAME.tar.xz" "$DIRNAME"
+
+          sha256sum *.tar.xz > sha256sums.txt
+
+          cat > notes.md <<EOF
+          these packages are created by [ppkg](https://github.com/leleliu008/ppkg).
+
+          these packages are statically linked against [musl-libc](https://musl.libc.org/).
+
+          these packages are relocatable which means that you can install them to anywhere.
+
+          ## Environment Variables
+
+          **following environment variables should be set for \`git\` package**
+
+          \`\`\`bash
+          export GIT_EXEC_PATH="\$GIT_INSTALL_DIR/libexec/git-core"
+          export GIT_TEMPLATE_DIR="\$GIT_INSTALL_DIR/share/git-core/templates"
+          \`\`\`
+
+          **following environment variables should be set for \`file\` package**
+
+          \`\`\`bash
+          export MAGIC="\$FILE_INSTALL_DIR/share/misc/magic.mgc"
+          \`\`\`
+
+          ## sha256sum
+
+          \`\`\`
+          $(cat sha256sums.txt)
+          \`\`\`
+          EOF
+
+          gh release create "$TAGNAME" *.tar.xz sha256sums.txt --title "$TAGNAME" --notes-file notes.md
+          git add formula
+          git commit -m "release new version $TAGNAME"
+          git push origin master
