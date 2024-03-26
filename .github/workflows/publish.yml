@@ -55,17 +55,15 @@ jobs:
           PACKAGE_WEB_URL="\$(./ppkg info-installed ${{ matrix.pkg }} web-url)"
           PACKAGE_VERSION="\$(./ppkg info-installed ${{ matrix.pkg }} version)"
 
-          PACKAGE_BIN_FILENAME="${{ matrix.pkg }}-\$PACKAGE_VERSION-linux-x86_64.tar.xz"
+          PACKAGE_BIN_SHA="\$(sha256sum *.tar.xz | cut -d ' ' -f1)"
 
-          PACKAGE_BIN_SHA="\$(sha256sum "\$PACKAGE_BIN_FILENAME" | cut -d ' ' -f1)"
-
-          PACKAGE_BIN_URL="https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/@TAGNAME@/\${PACKAGE_BIN_FILENAME}"
+          PACKAGE_BIN_URL="https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/@TAGNAME@/\$(ls *.tar.xz)"
 
           cat > ${{ matrix.pkg }}.yml <<EOF2
           summary: \$PACKAGE_SUMMARY
           webpage: \$PACKAGE_WEB_URL
-          version: \$PACKAGE_VERSION 
-          bin-url: \$PACKAGE_BIN_URL 
+          version: \$PACKAGE_VERSION
+          bin-url: \$PACKAGE_BIN_URL
           bin-sha: \$PACKAGE_BIN_SHA
           EOF2
 
@@ -152,6 +150,8 @@ jobs:
 
           git config --global user.name  "leleliu008"
           git config --global user.email "leleliu008@gmail.com"
+
+          git pull
 
           git add formula
           git commit -m "release new version $TAGNAME"
