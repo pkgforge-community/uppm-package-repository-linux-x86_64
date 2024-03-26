@@ -149,6 +149,10 @@ jobs:
           EOF
 
           gh release create "$TAGNAME" *.tar.xz sha256sums.txt --title "$TAGNAME" --notes-file notes.md
+
+          git config --global user.name  "leleliu008"
+          git config --global user.email "leleliu008@gmail.com"
+
           git add formula
           git commit -m "release new version $TAGNAME"
           git push origin master
