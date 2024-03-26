@@ -113,7 +113,7 @@ jobs:
 
           install -d "$DIRNAME"
 
-          ln -sfr ./formula "./$DIRNAME/formula"
+          cp -r formula "$DIRNAME/"
 
           tar cvJf "$DIRNAME.tar.xz" "$DIRNAME"
 
