@@ -15,7 +15,10 @@ jobs:
     container: alpine
 
     steps:
-      - run: wget https://raw.githubusercontent.com/leleliu008/ppkg/master/ppkg
+      - run: apk update
+      - run: apk add curl g++ libc-dev linux-headers
+
+      - run: curl -LO https://raw.githubusercontent.com/leleliu008/ppkg/master/ppkg
       - run: chmod a+x ppkg
 
       - run: ./ppkg setup
