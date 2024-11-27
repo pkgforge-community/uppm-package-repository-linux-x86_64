@@ -8,7 +8,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        pkg: [aria2, axel, base16, base64, bash, bat, bison, bc, bsdtar, bzip2, b3sum, cargo-c, cmake, coreutils, cppcheck, ctop, curl, curlie, darkhttpd, dua, duf, dufs, dust, diffutils, difftastic, dog, dolt, dos2unix, dot_static, doxygen, d2, easyutils, ed, exa, fd, figlet, file, findutils, flex, flock, fzf, gawk, gettext-tools, gh, gindent, git, git-cliff, git-lfs, gitui, gitwatch, glib-tools, glow, gm4, gmake, gnupg, go-md2man, gogs, golang, golang@1.21, gotop, gotty, gperf, grep, grpc-plugins, gron, gsed, gtar, gzip, helm, hugo, incus, invoice, jj, jq, ko, lazygit, libxml2-utils, lolcat, lsd, lz4, lzip, mediainfo, mosh, mpg123, nap, nasm, ninja, nushell, openssl, patch, patchelf, pop, pigz, p7zip, pkg-config, pkgconf, pngquant, proot, putty, qpdf, qrencode, ripgrep, rsync, rtmpdump, sqlite3, starship, strace, svn-lite, swig, sysinfo, tcpdump, tealdeer, tig, tmux, tree, uctags, unrar, unzip, uppm, util-linux, volta, wget, xmake, xsltproc, xxd, xz, yasm, youtubedr, yq, zip, zopfli, zstd, zoxide]
+        pkg: [aria2, axel, base16, base64, bash, bat, bison, bc, bsdtar, bzip2, b3sum, cargo-c, cmake, coreutils, cppcheck, ctop, curl, curlie, darkhttpd, dua, duf, dufs, dust, diffutils, difftastic, dog, dolt, dos2unix, dot_static, doxygen, d2, easyutils, ed, exa, fd, figlet, file, findutils, flex, flock, fzf, gawk, gettext-tools, gh, gindent, git, git-cliff, git-lfs, gitui, gitwatch, glib-tools, glow, gm4, gmake, gnupg, go-md2man, gogs, golang, golang@1.21, gotop, gotty, gperf, grep, grpc-plugins, gron, gsed, gtar, gzip, helm, hugo, incus, invoice, jj, jq, ko, lazygit, libxml2-utils, lolcat, lsd, lz4, lzip, mediainfo, mosh, mpg123, nap, nasm, ninja, nushell, openssl, patch, patchelf, pop, pigz, p7zip, pkg-config, pkgconf, pngquant, proot, putty, qpdf, qrencode, ripgrep, rsync, rtmpdump, silicon, sqlite3, starship, strace, svn-lite, swig, sysinfo, tcpdump, tealdeer, tig, tmux, tree, uctags, unrar, unzip, uppm, util-linux, volta, wget, xmake, xsltproc, xxd, xz, yasm, youtubedr, yq, zip, zopfli, zstd, zoxide]
 
     runs-on: ubuntu-latest
 
@@ -24,7 +24,7 @@ jobs:
       - run: ./ppkg setup
       - run: ./ppkg update
       - run: ./ppkg install ${{ matrix.pkg }} --link-type=static-full
-      - run: ./ppkg pack    ${{ matrix.pkg }} -o .
+      - run: ./ppkg pack    ${{ matrix.pkg }} -o . --exclude=include --exclude=lib
 
       - name: create ${{ matrix.pkg }}.yml
         run: |

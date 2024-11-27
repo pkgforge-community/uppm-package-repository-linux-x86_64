@@ -1,5 +1,5 @@
 summary: IDE for Android developers
 webpage: https://developer.android.com/studio
-version: 2023.2.1.24
-bin-url: https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2023.2.1.24/android-studio-2023.2.1.24-linux.tar.gz
-bin-sha: 0026427572849c9cbb0c94d6f9718ea08bc345dccfe3b372b54100a95fff99b5
+version: 2024.2.1.11
+bin-url: https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2024.2.1.11/android-studio-2024.2.1.11-linux.tar.gz
+bin-sha: 81f2fa5da72ab6f6afacca4a5327de5191e133ad02706e3ee440dc8658b8cdc3

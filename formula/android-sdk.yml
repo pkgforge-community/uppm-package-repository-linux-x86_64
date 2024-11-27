@@ -6,12 +6,12 @@ bin-sha: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
 dep-pkg: jdk17
 unpackd: cmdline-tools/latest
 install: |
-    yes | cmdline-tools/latest/bin/sdkmanager 'platforms;android-34'
-    yes | cmdline-tools/latest/bin/sdkmanager 'build-tools;30.0.3'
+    yes | cmdline-tools/latest/bin/sdkmanager 'platforms;android-35'
+    yes | cmdline-tools/latest/bin/sdkmanager 'build-tools;35.0.0'
     yes | cmdline-tools/latest/bin/sdkmanager 'platform-tools'
 
 export: |
     export ANDROID_HOME="$PKG_INSTALL_DIR"
     export PATH="\$ANDROID_HOME/cmdline-tools/latest/bin:\$PATH"
     export PATH="\$ANDROID_HOME/platform-tools:\$PATH"
-    export PATH="\$ANDROID_HOME/build-tools/30.0.3:\$PATH"
+    export PATH="\$ANDROID_HOME/build-tools/35.0.0:\$PATH"
