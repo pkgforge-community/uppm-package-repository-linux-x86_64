@@ -1,0 +1,5 @@
+summary: LLVM/SPIR-V Bi-Directional Translator
+webpage: https://github.com/KhronosGroup/SPIRV-LLVM-Translator
+version: 18.1.7
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2024.04.06/spirv-llvm-translator-18.1.7-linux-x86_64.release.tar.xz
+bin-sha: 6f88c77acab59c705ae2b3fb7c404838040cb22bb41463395c00ff7aed350ef1
