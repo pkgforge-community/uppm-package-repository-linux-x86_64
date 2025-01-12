@@ -1,5 +1,5 @@
 summary: ruby runtime
-web-url: https://www.ruby-lang.org/
+webpage: https://www.ruby-lang.org/
 version: 3.3.6
 bin-url: https://github.com/leleliu008/ruby-distribution/releases/download/3.3.6/ruby-3.3.6-linux-any-x86_64.tar.xz
 bin-sha: e88cd03f90934371a275dcdf41901aa006d29f01e53b5ae9ee5a447c8b761a0f
