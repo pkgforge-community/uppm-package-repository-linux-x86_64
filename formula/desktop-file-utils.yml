@@ -1,0 +1,5 @@
+summary: A few command-line utilities for working with desktop entries
+webpage: https://gitlab.freedesktop.org/xdg/desktop-file-utils
+version: 0.28
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2024.04.06/desktop-file-utils-0.28-linux-x86_64.release.tar.xz
+bin-sha: 55b4838fc2056d8f894a411ed4d296b4c38b03421800d39da78d14364d2655bd
