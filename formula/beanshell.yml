@@ -1,0 +1,13 @@
+summary: A small, free java source interpreter written in Java with object scripting language features
+webpage: https://github.com/beanshell/beanshell
+bin-url: https://github.com/beanshell/beanshell/releases/download/2.1.1/bsh-2.1.1.jar
+bin-sha: 71192cbbe49e7a269cfcba05dc5cb959c33b9b26dafcd6266ca3288b461f86a3
+version: 2.1.1
+dep-pkg: jdk21
+install: |
+  cat > bin/bsh <<EOF
+  #!/bin/sh
+  exec "${PKG_INSTALL_DIR%/*}/jdk21/bin/java" -java "$PKG_INSTALL_DIR%/bsh-2.1.1.jar" "\$@"
+  EOF
+  
+  chmod +x bin/bsh

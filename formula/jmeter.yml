@@ -1,0 +1,11 @@
+summary: A java application to load test functional behavior and measure performance
+webpage: https://jmeter.apache.org/
+bin-url: https://dlcdn.apache.org//jmeter/binaries/apache-jmeter-5.6.3.tgz
+bin-sha: f68efc17fe060f698c48a6abe2599a933927486bda2924dbe14c74895318ddde
+version: 5.6.3
+dep-pkg: jdk21
+install: |
+  cat > bin/setenv.sh <<EOF
+  export JMETER_HOME='$PKG_INSTALL_DIR'
+  export JAVA_HOME='${PKG_INSTALL_DIR%/*}/jdk21'
+  EOF
