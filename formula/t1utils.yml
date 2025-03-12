@@ -1,0 +1,5 @@
+summary: A collection of command-line tools for manipulating PostScript Type 1 fonts
+webpage: https://github.com/kohler/t1utils
+version: 1.42
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2024.04.06/t1utils-1.42-linux-x86_64.release.tar.xz
+bin-sha: 9ab033a3b283d162527b5847b5fdbdcd1ef59f45a27193c95639f10e0218cc8a
