@@ -8,7 +8,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        pkg: [aria2, axel, b3sum, base16, base64, bash, bat, bc, bison, bmake, bsdtar, bzip2, cargo-c, cbindgen, cmake, coreutils, cppcheck, ctop, curl, curlie, d2, darkhttpd, difftastic, diffutils, dog, dolt, dos2unix, dot_static, doxygen, dua, duf, dufs, dust, ed, exa, fd, figlet, file, findutils, flex, flock, fzf, gawk, getopt, gettext-tools, gh, gindent, git, git-cliff, git-lfs, gitui, gitwatch, glib-tools, glow, gm4, gmake, gnupg, go-md2man, gogs, golang, golang@1.21, gotop, gotty, gperf, grep, gron, grpc-plugins, gsed, gtar, gzip, helm, hugo, incus, invoice, jj, jq, ko, lazygit, lolcat, lsd, lz4, lzip, mediainfo, mosh, mpg123, nap, nasm, ninja, nushell, openssl, orcc, p7zip, patch, patchelf, pigz, pkg-config, pkgconf, pngquant, pop, potrace, proot, putty, qpdf, qrencode, ragel, re2c, ripgrep, rsync, rtmpdump, sassc, scdoc, silicon, sqlite3, starship, strace, svn-lite, swig, sysinfo, t1utils, tcpdump, tealdeer, tic, tig, tmux, tree, trietool, uctags, unrar, unzip, uppm, util-linux, volta, wabt, wget, xmake, xmlutils, xsltproc, xxd, xz, yasm, youtubedr, yq, zip, zopfli, zoxide, zstd]
+        pkg: [aria2, appstream, squashfs, axel, b3sum, base16, base64, bash, bat, bc, bison, bmake, bsdtar, bzip2, cargo-c, cbindgen, cmake, coreutils, cppcheck, ctop, curl, curlie, d2, darkhttpd, desktop-file-utils, difftastic, diffutils, dog, dolt, dos2unix, dot_static, doxygen, dua, duf, dufs, dust, ed, exa, fd, figlet, file, findutils, flex, flock, fzf, gawk, getopt, gettext-tools, gh, gindent, git, git-cliff, git-lfs, gitui, gitwatch, glib-tools, glow, gm4, gmake, gnupg, go-md2man, gogs, golang, golang@1.21, gotop, gotty, gperf, grep, gron, grpc-plugins, gsed, gtar, gzip, helm, hugo, incus, invoice, jj, jq, ko, lazygit, lolcat, lsd, lz4, lzip, mediainfo, mosh, mpg123, nap, nasm, ninja, nushell, openssl, orcc, p7zip, patch, patchelf, pigz, pkg-config, pkgconf, pngquant, pop, potrace, proot, putty, qpdf, qrencode, ragel, re2c, ripgrep, rsync, rtmpdump, sassc, scdoc, silicon, sqlite3, starship, strace, svn-lite, swig, sysinfo, t1utils, tcpdump, tealdeer, tic, tig, tmux, tree, trietool, uctags, unrar, unzip, uppm, util-linux, volta, wabt, wget, xmake, xmlutils, xsltproc, xxd, xz, yasm, youtubedr, yq, zip, zopfli, zoxide, zstd, zsync]
 
     runs-on: ubuntu-latest
 
@@ -23,7 +23,7 @@ jobs:
 
       - run: ./ppkg setup
       - run: ./ppkg update
-      - run: ./ppkg install ${{ matrix.pkg }} --link-type=static-full
+      - run: ./ppkg install ${{ matrix.pkg }} --static
       - run: ./ppkg bundle  ${{ matrix.pkg }} .tar.xz --exclude include/ --exclude lib/
 
       - name: create ${{ matrix.pkg }}.yml
@@ -94,21 +94,6 @@ jobs:
           these packages are statically linked against [musl-libc](https://musl.libc.org/).
 
           these packages are relocatable which means that you can install them to anywhere.
-
-          ## Environment Variables
-
-          **following environment variables should be set for \`git\` package**
-
-          \`\`\`bash
-          export GIT_EXEC_PATH="\$GIT_INSTALL_DIR/libexec/git-core"
-          export GIT_TEMPLATE_DIR="\$GIT_INSTALL_DIR/share/git-core/templates"
-          \`\`\`
-
-          **following environment variables should be set for \`file\` package**
-
-          \`\`\`bash
-          export MAGIC="\$FILE_INSTALL_DIR/share/misc/magic.mgc"
-          \`\`\`
 
           ## sha256sum
 
