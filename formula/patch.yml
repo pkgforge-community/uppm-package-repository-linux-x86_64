@@ -1,5 +1,5 @@
 summary: Apply a diff file to an original
 webpage: https://savannah.gnu.org/projects/patch
 version: 2.7.6
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2024.04.06/patch-2.7.6-linux-x86_64.tar.xz
-bin-sha: 05029fda8d21045c2605f32cbdcee170a5591fd2ebd8cf5341b1a5dd8db62dd3
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2025.03.18/patch-2.7.6-linux-x86_64.release.tar.xz
+bin-sha: 18efb3b8321b7aa411550b840c72b65867b47525a7bdc35a3af0ac529de05da5

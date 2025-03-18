@@ -1,5 +1,5 @@
 summary: A structural diff tool that compares files based on their syntax
 webpage: https://github.com/Wilfred/difftastic
 version: 0.57.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2024.04.06/difftastic-0.57.0-linux-x86_64.tar.xz
-bin-sha: 8df4f3cacf12691ac39cdaa9382ddbe4e847eb4b3d14596f833f110b72ef682d
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2025.03.18/difftastic-0.57.0-linux-musl-x86_64.release.tar.xz
+bin-sha: d15999552e86e76c2af4f425f5c2f9a6e8c1e46324454035b7393b04d9ecda9f

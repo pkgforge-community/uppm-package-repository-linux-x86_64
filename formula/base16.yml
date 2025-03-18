@@ -1,5 +1,5 @@
 summary: base16 encoder and decoder
 webpage: https://github.com/leleliu008/C-examples
-version: 2024.04.06
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2024.04.06/base16-2024.04.06-linux-x86_64.tar.xz
-bin-sha: 668492fc88ca84f89d1b92fa81fa132ffb5c37fdaa04f432fcfbe9b4cb5a4619
+version: 2025.03.18
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2025.03.18/base16-2025.03.18-linux-x86_64.release.tar.xz
+bin-sha: 8987f278f6e1a699c8a916b431ec602d9a88172dce5605be5322e3ba78004514

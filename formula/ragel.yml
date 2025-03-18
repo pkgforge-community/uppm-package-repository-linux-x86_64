@@ -1,5 +1,5 @@
 summary: State machine compiler
 webpage: https://www.colm.net/open-source/ragel/
 version: 6.10
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2024.04.06/ragel-6.10-linux-x86_64.release.tar.xz
-bin-sha: 759ee0de5573edb71ad83e0067fe870407c56472fb108448584892cbb441c8ab
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2025.03.18/ragel-6.10-linux-x86_64.release.tar.xz
+bin-sha: def8aed8a4734f3419541f21d55de7960aa5d136fb3c922868f7c0780701c781

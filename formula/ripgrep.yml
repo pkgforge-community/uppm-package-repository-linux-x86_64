@@ -1,5 +1,5 @@
 summary: A command-line tool for searching files for a regex pattern
 webpage: https://github.com/BurntSushi/ripgrep
 version: 14.1.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2024.04.06/ripgrep-14.1.0-linux-x86_64.tar.xz
-bin-sha: 2185491f778349910b4aaa4208a5ddd8f43436edc6b7b4b0b47cdba10f771d15
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2025.03.18/ripgrep-14.1.0-linux-musl-x86_64.release.tar.xz
+bin-sha: f508f780a61e78808d9aa5cc78e96f2122fc450a0a47b667471211c2c853c202

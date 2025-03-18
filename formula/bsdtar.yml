@@ -1,5 +1,5 @@
 summary: BSD tar
 webpage: https://www.libarchive.org/
-version: 3.7.2
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2024.04.06/bsdtar-3.7.2-linux-x86_64.tar.xz
-bin-sha: 370000b61f12b3ecf1c46aa3435bac4532a8714f25737c627512bb954cb5aff4
+version: 3.7.7
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2025.03.18/bsdtar-3.7.7-linux-x86_64.release.tar.xz
+bin-sha: a89416cef12f891ff6dd776dd9384d1edaf7988b833c06e1ea46a0ef1de7c9e5

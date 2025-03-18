@@ -1,5 +1,5 @@
 summary: Cross-platform make
 webpage: https://www.cmake.org/
-version: 3.29.1
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2024.04.06/cmake-3.29.1-linux-x86_64.tar.xz
-bin-sha: da04cad03d8eef182ba18bfc051107e0cabb702d540f982a36a5fa0c2a44e72f
+version: 3.31.5
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2025.03.18/cmake-3.31.5-linux-x86_64.release.tar.xz
+bin-sha: 4230db4be9a454043fe59ce91279f82d6bb6cca58d984044536912d9e1cc72c7

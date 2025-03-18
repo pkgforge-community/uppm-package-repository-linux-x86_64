@@ -1,5 +1,5 @@
 summary: Utility for directing compilation
 webpage: https://www.gnu.org/software/make
 version: 4.4.1
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2024.04.06/gmake-4.4.1-linux-x86_64.tar.xz
-bin-sha: e3fa95ef840d4a864982dfe2ea5da4d29c6652eda3d4359487aa3088b45d828f
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2025.03.18/gmake-4.4.1-linux-x86_64.release.tar.xz
+bin-sha: aad0f234978a33e58cfe319df1cc710c5f48096e22458d5621dec5b467c9a81c

@@ -1,5 +1,5 @@
-summary: Download with resuming and segmented downloading
+summary: A lightweight multi-protocol & multi-source, cross platform download utility
 webpage: https://aria2.github.io
 version: 1.37.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2024.04.06/aria2-1.37.0-linux-musl-x86_64.tar.xz
-bin-sha: e59c7b0f06d53573c6811f6003c49f999b5f711d669aef58ddb24f945da3fb1c
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2025.03.18/aria2-1.37.0-linux-x86_64.release.tar.xz
+bin-sha: fb371bddb07694d16b3843ef8182666f29e8cc55597c9643697729dbf8af5645

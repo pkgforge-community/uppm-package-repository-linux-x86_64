@@ -1,5 +1,5 @@
 summary: Cryptography and SSL/TLS Toolkit
 webpage: https://www.openssl.org/
-version: 3.2.1
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2024.04.06/openssl-3.2.1-linux-musl-x86_64.tar.xz
-bin-sha: 6ce12011fd44c47e1a1260b327bbc30afd2e7f0fa534c83065185c3e0c7d4526
+version: 3.3.1
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2025.03.18/openssl-3.3.1-linux-x86_64.release.tar.xz
+bin-sha: 2186aded9fb6d287cdc6c6a239e041d9e3430fac5b567d6f9b4f7aa3b393310b

@@ -1,5 +1,5 @@
 summary: A collection of tools for glib
 webpage: https://developer.gnome.org/glib
-version: 2.80.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2024.04.06/glib-tools-2.80.0-linux-x86_64.tar.xz
-bin-sha: 3976c151ae0469e955d0d07536ce70694a6b5c43b85af8d8c75d2138323e6e11
+version: 2.80.4
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2025.03.18/glib-tools-2.80.4-linux-x86_64.release.tar.xz
+bin-sha: 9d8568a330cf361c3a3e628480a1e31af875a8a3365e1dfc2320a9fb0e41f6d8

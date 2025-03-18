@@ -1,5 +1,5 @@
-summary: utilities provided by libxml2
+summary: A collections of command-line utilities provided by libxml2
 webpage: http://xmlsoft.org
-version: 2.12.6
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2024.04.06/libxml2-utils-2.12.6-linux-x86_64.tar.xz
-bin-sha: ada25f8ea24c94837fb56b99e169cb7bbc4e35ca2c47d59d54d6dcaf14e9207c
+version: 2.13.5
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2025.03.18/xmlutils-2.13.5-linux-x86_64.release.tar.xz
+bin-sha: e1f30c5d1a6a9e6a6a781ba364d8df1b448b3cdfe2342367498a700cc10e14d6

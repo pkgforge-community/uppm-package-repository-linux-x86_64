@@ -1,5 +1,5 @@
 summary: QR Code generation
 webpage: https://fukuchi.org/works/qrencode
 version: 4.1.1
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2024.04.06/qrencode-4.1.1-linux-musl-x86_64.tar.xz
-bin-sha: dbbc3289ecc3a96b85cc67d54bb6ccd87349b61fe0808315ea598497c6d56386
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2025.03.18/qrencode-4.1.1-linux-x86_64.release.tar.xz
+bin-sha: ed4a7b14c510936e9fcc431ef700cb2729044cd39158b81e9207a6294545e3a5

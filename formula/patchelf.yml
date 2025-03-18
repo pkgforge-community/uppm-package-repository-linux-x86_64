@@ -1,5 +1,5 @@
 summary: A small utility to modify ELF files
 webpage: https://github.com/NixOS/patchelf
 version: 0.18.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2024.04.06/patchelf-0.18.0-linux-x86_64.tar.xz
-bin-sha: fc7a211007e31e6df5916414b1d736cf7424be7e0a12d8743098c22917f42736
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2025.03.18/patchelf-0.18.0-linux-x86_64.release.tar.xz
+bin-sha: 027f90e80e543f6eec5f9b051214058800e7b4b7b496f5389ff3edeede56dead
