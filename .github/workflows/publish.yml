@@ -23,9 +23,6 @@ jobs:
 
       - run: ./ppkg setup
       - run: ./ppkg update
-
-      - run: sed -i -e '/^dep-pkg: /s|systemd||' -e 's|systemd=true|systemd=false|' ~/.ppkg/repos.d/official-core/formula/appstream.yml
-
       - run: ./ppkg install ${{ matrix.pkg }} --static
       - run: ./ppkg bundle  ${{ matrix.pkg }} .tar.xz --exclude include/ --exclude lib/
 
