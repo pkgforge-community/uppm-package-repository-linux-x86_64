@@ -1,0 +1,5 @@
+summary: Lua Runtime
+version: 5.4.7
+webpage: https://www.lua.org/
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2025.03.18/lua-5.4.7-linux-x86_64.release.tar.xz
+bin-sha: 03a95f5e2ef844b40ee168aba44ef3d753653b64703ee34be55f6d5d7c1a33cf
