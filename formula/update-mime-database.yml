@@ -1,0 +1,5 @@
+summary: A command-line tool to update the MIME database
+webpage: https://wiki.freedesktop.org/www/Software/shared-mime-info
+version: 2.4
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2025.03.18/update-mime-database-2.4-linux-x86_64.release.tar.xz
+bin-sha: 4f64ed6fe27b7f54b406a995272c29dd026bbe176fb21eb0e5fe4949b4a3b861
