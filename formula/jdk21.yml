@@ -2,7 +2,7 @@ summary: Java Development Kit
 webpage: https://www.oracle.com/java/technologies/downloads/
 version: 21
 bin-url: https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.tar.gz
-bin-sha: 0854421306468559813f1e5068e036213f9710e1e239d823c0d63552a1259e25
+bin-sha: 773eff7191d996d3b6ce3a99c21ce69cf2d836fd07277106313732a098d4309a
 
 res-url: https://cdn.azul.com/zulu/bin/zulu21.42.19-ca-jdk21.0.7-linux_musl_x64.tar.gz
 res-sha: 02dbdaf6e31c1dd767953615e2928cd33f2935715f715fa181283f373c3c47ad
