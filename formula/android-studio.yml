@@ -1,5 +1,5 @@
 summary: IDE for Android developers
 webpage: https://developer.android.com/studio
-version: 2024.2.1.11
-bin-url: https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2024.2.1.11/android-studio-2024.2.1.11-linux.tar.gz
-bin-sha: 81f2fa5da72ab6f6afacca4a5327de5191e133ad02706e3ee440dc8658b8cdc3
+version: 2025.3.4.7
+bin-url: https://edgedl.me.gvt1.com/android/studio/ide-zips/2025.3.4.7/android-studio-panda4-patch1-linux.tar.gz
+bin-sha: aae8f332f124afd23ca495dc770915a456da7480c8f859e01535ad42fcb4ca06
