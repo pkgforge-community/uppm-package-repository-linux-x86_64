@@ -8,7 +8,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        pkg: [aria2, appstream, squashfs, axel, b3sum, base16, base64, bash, bat, bc, bison, bmake, bsdtar, bzip2, cargo-c, cbindgen, cmake, coreutils, cppcheck, ctop, curl, curlie, d2, darkhttpd, desktop-file-utils, difftastic, diffutils, dog, dolt, dos2unix, dot_static, doxygen, dua, duf, dufs, dust, ed, exa, fd, figlet, file, findutils, flex, flock, fzf, gawk, getopt, gettext-tools, gh, gindent, git, git-cliff, git-lfs, gitui, gitwatch, glib-tools, glow, gm4, gmake, gn, gnupg, go-md2man, gogs, gotop, gotty, gperf, grep, gron, grpc-plugins, gsed, gtar, gzip, helm, hugo, incus, invoice, jj, jq, ko, lazygit, lolcat, lsd, lz4, lzip, mediainfo, mosh, mpg123, nap, nasm, ninja, nushell, openssl, orcc, p7zip, patch, patchelf, pigz, pkg-config, pkgconf, pngquant, pop, potrace, proot, putty, qpdf, qrencode, ragel, re2c, ripgrep, rsync, rtmpdump, sassc, scdoc, silicon, sqlite3, starship, strace, svn-lite, swig, sysinfo, t1utils, tcpdump, tealdeer, tic, tig, tmux, tree, trietool, uctags, unrar, unzip, uppm, util-linux, volta, wabt, wget, xmake, xmlutils, xsltproc, xxd, xz, yasm, youtubedr, yq, zip, zopfli, zoxide, zstd, zsync]
+        pkg: [aria2, appstream, squashfs, axel, b3sum, base16, base64, bash, bat, bc, bison, bmake, bsdtar, bzip2, cargo-c, cbindgen, cmake, coreutils, cppcheck, ctop, curl, curlie, d2, darkhttpd, desktop-file-utils, difftastic, diffutils, dog, dolt, dos2unix, dot_static, doxygen, dua, duf, dufs, dust, ed, exa, fd, figlet, file, findutils, flex, flock, fzf, gawk, getopt, gettext-tools, gh, gindent, git, git-cliff, git-lfs, gitui, gitwatch, glib-tools, glow, gm4, gmake, gn, gnupg, go-md2man, gogs, gotop, gotty, gperf, grep, gron, grpc-plugins, gsed, gtar, gzip, helm, hugo, incus, invoice, jj, jq, ko, lazygit, lolcat, lsd, lua, lz4, lzip, mediainfo, mosh, mpg123, nap, nasm, ninja, nushell, openssl, orcc, p7zip, patch, patchelf, pigz, pkg-config, pkgconf, pngquant, pop, potrace, proot, putty, qpdf, qrencode, ragel, re2c, ripgrep, rsync, rtmpdump, sassc, scdoc, silicon, sqlite3, starship, strace, svn-lite, swig, sysinfo, t1utils, tcpdump, tealdeer, tic, tig, tmux, tree, trietool, uctags, unrar, unzip, update-mime-database, uppm, util-linux, volta, wabt, wget, xmake, xmlutils, xsltproc, xxd, xz, yasm, youtubedr, yq, zip, zopfli, zoxide, zstd, zsync]
 
     runs-on: ubuntu-latest
 
@@ -28,9 +28,9 @@ jobs:
 
       - name: create ${{ matrix.pkg }}.yml
         run: |
-          PACKAGE_SUMMARY="$(./ppkg info-installed ${{ matrix.pkg }} summary)"
-          PACKAGE_WEB_URL="$(./ppkg info-installed ${{ matrix.pkg }} web-url)"
-          PACKAGE_VERSION="$(./ppkg info-installed ${{ matrix.pkg }} version)"
+          PACKAGE_SUMMARY="$(./ppkg show ${{ matrix.pkg }} summary)"
+          PACKAGE_WEB_URL="$(./ppkg show ${{ matrix.pkg }} web-url)"
+          PACKAGE_VERSION="$(./ppkg show ${{ matrix.pkg }} version)"
 
           PACKAGE_BIN_SHA="$(sha256sum *.tar.xz | cut -d ' ' -f1)"
 
@@ -44,7 +44,7 @@ jobs:
           bin-sha: $PACKAGE_BIN_SHA
           EOF
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v6
         with:
           name: ${{ matrix.pkg }}
           path: |
@@ -59,9 +59,9 @@ jobs:
       GH_TOKEN: ${{ github.token }}
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           pattern: '*'
           path: .
@@ -86,26 +86,18 @@ jobs:
 
           tar cvJf "$DIRNAME.tar.xz" "$DIRNAME"
 
-          sha256sum *.tar.xz > sha256sums.txt
-
           cat > notes.md <<EOF
-          these packages are created by [ppkg](https://github.com/leleliu008/ppkg).
+          These packages are created by [ppkg](https://github.com/leleliu008/ppkg).
 
-          these packages are statically linked against [musl-libc](https://musl.libc.org/).
+          These packages are statically linked against [musl-libc](https://musl.libc.org/).
 
-          these packages are relocatable which means that you can install them to anywhere.
-
-          ## sha256sum
-
-          \`\`\`
-          $(cat sha256sums.txt)
-          \`\`\`
+          These packages are relocatable which means that you can install them to anywhere.
           EOF
 
-          gh release create "$TAGNAME" *.tar.xz sha256sums.txt --title "$TAGNAME" --notes-file notes.md
+          gh release create "$TAGNAME" *.tar.xz --title "$TAGNAME" --notes-file notes.md
 
-          git config --global user.name  "leleliu008"
-          git config --global user.email "leleliu008@gmail.com"
+          git config --global user.name  leleliu008
+          git config --global user.email leleliu008@gmail.com
 
           git pull
 
