@@ -1,5 +1,5 @@
-summary: a meta-build system that generates build files for ninja
-webpage: https://gn.googlesource.com/gn.git
-version: 2022.10.23
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2024.03.26/gn-2022.10.23-linux-x86_64.tar.xz
-bin-sha: 2c52766ac571d50be3612a5721d825edec4e32f3d5dcf1f2066972cc281781d0
+summary: A meta-build system that generates build files for ninja
+webpage: https://gn.googlesource.com/gn
+version: 2026.06.20
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/gn-2026.06.20-linux-x86_64.release.tar.xz
+bin-sha: 6fe17931b17527e7b6eaec89aeb17ee06246d78ff6472eedb1345e4302d87ed7

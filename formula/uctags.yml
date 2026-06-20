@@ -1,5 +1,5 @@
 summary: Maintained ctags implementation
 webpage: https://ctags.io/
-version: 2024.04.06
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2024.04.06/uctags-2024.04.06-linux-x86_64.tar.xz
-bin-sha: 01f8301193789808b4abc9d13d9f372f7d657359872cadcf19153f81274de7a8
+version: 2026.06.20
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/uctags-2026.06.20-linux-x86_64.release.tar.xz
+bin-sha: dcea94f63876e3eab3eae0d87aad92420a130ffe82b77f3da679b09e616d77f1

@@ -1,5 +1,5 @@
 summary: A parallel implementation of gzip for modern multi-processor, multi-core machines
 webpage: https://zlib.net/pigz/
 version: 2.8
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2024.04.06/pigz-2.8-linux-x86_64.tar.xz
-bin-sha: afb08ff7ce575ca43bdf2a4874c4da2a50f777271c2c46ef80bdc9e5cab6b71a
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/pigz-2.8-linux-x86_64.release.tar.xz
+bin-sha: 0be3efbe0dd7ae53bd2b9bf79a7957c3b8c0f7c9541fa6ea54221f4421da1b9c

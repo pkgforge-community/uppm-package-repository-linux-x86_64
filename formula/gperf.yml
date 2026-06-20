@@ -1,5 +1,5 @@
 summary: Perfect hash function generator
 webpage: https://www.gnu.org/software/gperf
-version: 3.1
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2024.04.06/gperf-3.1-linux-x86_64.tar.xz
-bin-sha: 548c4f851c58b0569e8c2d664f3345861d91b609e037db4bd2a5eab441624668
+version: 3.3
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/gperf-3.3-linux-x86_64.release.tar.xz
+bin-sha: cd86c71a601ca601e583faefdd13088eb0edc00e02f488aa2e4867db61d7e9db

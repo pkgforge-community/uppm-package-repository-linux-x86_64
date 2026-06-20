@@ -1,5 +1,5 @@
 summary: C code prettifier
 webpage: https://www.gnu.org/software/indent/
 version: 2.2.13
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2024.04.06/gindent-2.2.13-linux-x86_64.tar.xz
-bin-sha: 79ee3e268b510d0dcd168299e622566e22a8bd302ed454f30088aaaef5ec7bd3
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/gindent-2.2.13-linux-x86_64.release.tar.xz
+bin-sha: 51025aad5c04a08a3ba7af15264149a61565c5d40ef30676fca47fe1d7ea28f9

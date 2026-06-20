@@ -1,5 +1,5 @@
-summary: File transfer program
-webpage: http://zsync.moria.org.uk/
-version: 0.6.2
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2024.04.06/zsync-0.6.2-linux-x86_64.release.tar.xz
-bin-sha: 7f990704d4235ba3afb1fcba2cfaee6be21d60b0f9c294a92db00708a1d2bd50
+summary: A command-line tool similar to rsync but optimised for transfering single large files across the network
+webpage: https://zsync.moria.org.uk/
+version: 0.7.1
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/zsync-0.7.1-linux-x86_64.release.tar.xz
+bin-sha: b07780ebcd15b4c6065d9871c7af79af31ba52084c9934a98f96bc63a653ff4c

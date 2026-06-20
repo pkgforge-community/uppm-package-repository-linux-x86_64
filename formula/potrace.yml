@@ -1,5 +1,5 @@
 summary: A command-line tool for converting bitmaps to vector graphics
-webpage: https://github.com/skyrpex/potrace
+webpage: https://potrace.sourceforge.io/
 version: 1.16
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2024.04.06/potrace-1.16-linux-x86_64.release.tar.xz
-bin-sha: 345afd2a93e8e052ea4adaea875f515b40016e71866ca7b8ed70ab76c8db0db4
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/potrace-1.16-linux-x86_64.release.tar.xz
+bin-sha: d4502413a850ae9b2fb6f8466ea83c47eb38e01600d37f44769afbf44e8735e3
