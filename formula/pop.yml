@@ -1,5 +1,5 @@
 summary: Send emails from your terminal
 webpage: https://github.com/charmbracelet/pop
 version: 0.2.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/pop-0.2.0-linux-x86_64.release.tar.xz
-bin-sha: 1e7a99d83f4414bbe87ee32ae1ef277276b73aa40e09e4e92acead340394ffa1
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/pop-0.2.0-linux-x86_64.release.tar.xz
+bin-sha: ad5772a6f51dccc0531fadfcbd5a0f2bea5e3516392eea449ed38034c9b7c6f9

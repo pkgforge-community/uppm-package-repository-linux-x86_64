@@ -1,5 +1,5 @@
 summary: A command-line utility to work with AppStream metadata
 webpage: https://www.freedesktop.org/wiki/Distributions/AppStream/
 version: 1.1.2
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/appstream-1.1.2-linux-x86_64.release.tar.xz
-bin-sha: b3e210ab3740d106320b99b75e4ec68d69571754fd9db54ed882bc1f3051bdae
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/appstream-1.1.2-linux-x86_64.release.tar.xz
+bin-sha: c2362726b3ba7d6209588913f97c022f9cffb187a2d690bf9af43a4e823f0ce9

@@ -1,0 +1,5 @@
+summary: rust implementation of the GNU coreutils
+webpage: https://uutils.github.io/coreutils/
+version: 0.9.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/uutils-coreutils-0.9.0-linux-x86_64.release.tar.xz
+bin-sha: 61ddd0d83f1089ccc0eb90dee15b696d2567eb40622eb2d6841b96e57fdf889b

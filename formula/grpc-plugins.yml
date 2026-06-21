@@ -1,5 +1,5 @@
 summary: grpc plugins
 webpage: https://grpc.io
 version: 1.78.1
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/grpc-plugins-1.78.1-linux-x86_64.release.tar.xz
-bin-sha: d67928a110096d9167d3a2062c886ebf4733b8b9f0deae82dc8eaa0d74e875ae
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/grpc-plugins-1.78.1-linux-x86_64.release.tar.xz
+bin-sha: 139ea00810655c17a09c2d75dbc750a4e2e7c6a4d72346d4e29fdee28d97a2e0

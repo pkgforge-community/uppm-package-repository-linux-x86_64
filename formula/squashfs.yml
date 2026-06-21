@@ -1,5 +1,5 @@
 summary: tools to create and extract Squashfs filesystems
 webpage: https://github.com/plougher/squashfs-tools
 version: 4.7.5
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/squashfs-4.7.5-linux-x86_64.release.tar.xz
-bin-sha: 619cddfc1eb41133860084371856c343abc8604ddc825a099775d0b82e445a4c
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/squashfs-4.7.5-linux-x86_64.release.tar.xz
+bin-sha: b1af8879d2561fed8bec2130e09bc5d793fb6f835505bef4344e3bf6074791aa

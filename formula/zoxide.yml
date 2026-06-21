@@ -1,5 +1,5 @@
 summary: A shell extension to navigate your filesystem faster
 webpage: https://github.com/ajeetdsouza/zoxide
 version: 0.9.9
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/zoxide-0.9.9-linux-x86_64.release.tar.xz
-bin-sha: 40a53fc4ca385dfc4204eb782c02a21e56709cbb5b9bfbe42715c9e7949318ea
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/zoxide-0.9.9-linux-x86_64.release.tar.xz
+bin-sha: 30ba8bc7df0294cc1cda4e26c15e62d73c20eee17be126e066e7988eef226d5c

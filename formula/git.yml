@@ -1,5 +1,5 @@
 summary: A free and open source distributed version control system with speed and efficiency
 webpage: https://git-scm.com/
 version: 2.54.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/git-2.54.0-linux-x86_64.release.tar.xz
-bin-sha: febb6bd4ad862c4e30a3ac670e834043142bb1c127b04493bf5f1c1e3812f7ff
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/git-2.54.0-linux-x86_64.release.tar.xz
+bin-sha: d559c4c61e9f1beb3ea7181fb07d5b2dfae95d52afa3bce44000e0301b35f1a4

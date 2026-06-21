@@ -1,0 +1,5 @@
+summary: TIFF library and utilities
+webpage: https://libtiff.gitlab.io/libtiff
+version: 4.7.1
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/tiffutils-4.7.1-linux-x86_64.release.tar.xz
+bin-sha: bc3ead9373354fd5afbce502591e9bb781d9d497dbb691dc060bbf1ebe0e8a09

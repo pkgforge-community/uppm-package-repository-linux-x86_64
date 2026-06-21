@@ -1,5 +1,5 @@
 summary: A command-line tool for manipulating double-array trie data
 webpage: https://linux.thai.net/~thep/datrie/datrie.html
-version: 0.2.13
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/trietool-0.2.13-linux-x86_64.release.tar.xz
-bin-sha: 80f9f2e5e59d2d9c98e0f09dea8e0e23a2f8c38bfb22c7cbb0edd8e6a4a2023d
+version: 0.2.14
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/trietool-0.2.14-linux-x86_64.release.tar.xz
+bin-sha: 2c3f2dda6967a421622151cae5bdf6094d38e2f1567886843b9b83dac3eb65b9

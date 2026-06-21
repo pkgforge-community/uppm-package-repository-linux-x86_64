@@ -1,5 +1,5 @@
 summary: A package of several programs related to finding files
 webpage: https://www.gnu.org/software/findutils
 version: 4.10.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/findutils-4.10.0-linux-x86_64.release.tar.xz
-bin-sha: 9c6716af5161b983b460fee8ee008d4369e7fefcc9b111d7a47a07e371f1d4f3
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/findutils-4.10.0-linux-x86_64.release.tar.xz
+bin-sha: 97460876f9f8c705b35c0cfc75ed9b9a357a1f730cd43f4438e2fb7371863cd5

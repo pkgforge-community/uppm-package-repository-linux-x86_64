@@ -1,5 +1,5 @@
 summary: GNU Pretty Good Privacy (PGP) package
 webpage: https://www.gnupg.org
 version: 2.5.20
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/gnupg-2.5.20-linux-x86_64.release.tar.xz
-bin-sha: db4a212b017e99005fed7445204d0d110b140e30dc14c2e15c5fa49cffa9f2a9
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/gnupg-2.5.20-linux-x86_64.release.tar.xz
+bin-sha: 8b24452ce90b01b825de85e916a62c1766d2b47ca5fc70a6c0d7b71a5ead2965

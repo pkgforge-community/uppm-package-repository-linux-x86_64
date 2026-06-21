@@ -1,0 +1,5 @@
+summary: Library for manipulating PNG images
+webpage: http://www.libpng.org/pub/png/libpng.html
+version: 1.6.58
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/pngutils-1.6.58-linux-x86_64.release.tar.xz
+bin-sha: 9b534a41afdae3efbd6856fd2bb7210a82970d3ef9ea38a5d20dd3aedd07607c

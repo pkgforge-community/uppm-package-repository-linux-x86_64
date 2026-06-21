@@ -1,5 +1,5 @@
 summary: A collection of Linux utilities
 webpage: https://github.com/util-linux/util-linux
 version: 2.40.4
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/util-linux-2.40.4-linux-x86_64.release.tar.xz
-bin-sha: 4b253157560b40bdfd79677b5f3ef8dfaab67cee0a8e7624de82b8c602a0ca0a
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/util-linux-2.40.4-linux-x86_64.release.tar.xz
+bin-sha: d4ee5168bdf5bcaf4bd52c62fe33c5e7db4eedf30ae73fa942c3e8d9ed255292

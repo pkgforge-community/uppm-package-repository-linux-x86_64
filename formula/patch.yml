@@ -1,5 +1,5 @@
 summary: Apply a diff file to an original
 webpage: https://savannah.gnu.org/projects/patch
 version: 2.8
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/patch-2.8-linux-x86_64.release.tar.xz
-bin-sha: 246c3a95e4b8df41392a5323aac17313cbe4c5a9f9325c11337f1c0c0257726c
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/patch-2.8-linux-x86_64.release.tar.xz
+bin-sha: 955336f64d4117b5b877abff8d78ab2917aed0d8f9aa017d4c17f251c9720c11

@@ -1,5 +1,5 @@
 summary: A command-line tool to convert markdown into roff (man pages)
 webpage: https://github.com/cpuguy83/go-md2man
 version: 2.0.7
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/go-md2man-2.0.7-linux-x86_64.release.tar.xz
-bin-sha: 6be37a5591a7e732f09a40fcf1ed244d77fef668a6d1bfadddb8e29556a39641
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/go-md2man-2.0.7-linux-x86_64.release.tar.xz
+bin-sha: e44a07594daae1e14a7ada7d912683ad5acf9aa94f1cd2b0b16c001f3e5f109b

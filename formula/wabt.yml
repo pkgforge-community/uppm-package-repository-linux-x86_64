@@ -1,5 +1,5 @@
 summary: Web Assembly Binary Toolkit
 webpage: https://github.com/WebAssembly/wabt
 version: 1.0.35
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/wabt-1.0.35-linux-x86_64.release.tar.xz
-bin-sha: c89342e0f3a20b15570c6e7bf7e6c5c88fe971666d3fe953d221aef61c91a938
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/wabt-1.0.35-linux-x86_64.release.tar.xz
+bin-sha: f6bd64f5090c80a496fe826717bf6e55cebaeea0ffdd7596352e9a6b38ea6767

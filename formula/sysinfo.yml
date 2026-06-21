@@ -1,5 +1,5 @@
 summary: A command-line utility to print your currently running system information
 webpage: https://github.com/leleliu008/sysinfo
-version: 2026.06.20
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/sysinfo-2026.06.20-linux-x86_64.release.tar.xz
-bin-sha: 29cbe1dcc953b9415afdaed5864ace8789029ca05440ae9a92dafc95a9c6af66
+version: 2026.06.21
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/sysinfo-2026.06.21-linux-x86_64.release.tar.xz
+bin-sha: 6fcf38dd6ba36823fa991f37be53ec7e6535998df0845fe793ab43fac990ac85

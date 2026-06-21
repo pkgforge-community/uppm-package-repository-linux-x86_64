@@ -1,5 +1,5 @@
 summary: Yacc-compatible Parser generator
 webpage: https://www.gnu.org/software/bison
 version: 3.8.2
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/bison-3.8.2-linux-x86_64.release.tar.xz
-bin-sha: 116285482ae09126379190d2c92546b9a9ed3d39610fb2c52e4debff3708bff4
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/bison-3.8.2-linux-x86_64.release.tar.xz
+bin-sha: 9123a3812d7c11f8207dd4b59dff65a70737b9ac9ea860baab81010174dba2db

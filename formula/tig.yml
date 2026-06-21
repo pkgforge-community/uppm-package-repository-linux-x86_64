@@ -1,5 +1,5 @@
 summary: Text interface for Git repositories
 webpage: https://jonas.github.io/tig
 version: 2.5.12
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/tig-2.5.12-linux-x86_64.release.tar.xz
-bin-sha: abb0fe3044a0264fda27a5dba77d036fa3436db4b05c89488fc48ac7ca0e5f7f
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/tig-2.5.12-linux-x86_64.release.tar.xz
+bin-sha: 5fd5e56f5ad2a02e094878990876f11f23d29c3dabae75f95bb797eef9e9c304

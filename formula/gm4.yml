@@ -1,5 +1,5 @@
 summary: Macro processing language
 webpage: https://www.gnu.org/software/m4
 version: 1.4.21
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/gm4-1.4.21-linux-x86_64.release.tar.xz
-bin-sha: eb1184644905a706b4e881a274c3621e012ecd21d3732c082051523ebfec8ba0
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/gm4-1.4.21-linux-x86_64.release.tar.xz
+bin-sha: eecb5fad976ef29bb597372993600528c44c4918012d1b9b0b21138521f3fe49

@@ -1,5 +1,5 @@
 summary: Watch a file or folder and automatically commit changes to a git repo easily
 webpage: https://github.com/gitwatch/gitwatch
 version: 0.5
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/gitwatch-0.5-linux-x86_64.release.tar.xz
-bin-sha: 058dfc7649767b4352be7265575dd5d1460f04fc2fa467d8d9b7361c7c3b65de
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/gitwatch-0.5-linux-x86_64.release.tar.xz
+bin-sha: 452f64fc288525d77f8a9a68187754aeb3a20e156929910f75d8f4e56cc7c532

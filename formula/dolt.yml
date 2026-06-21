@@ -1,5 +1,5 @@
 summary: Git for Data
 webpage: https://github.com/dolthub/dolt
 version: 1.50.2
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/dolt-1.50.2-linux-x86_64.release.tar.xz
-bin-sha: 50d38f828ba906ecf4bd2987455caaf49299b99515795da4a337ec475c1920d4
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/dolt-1.50.2-linux-x86_64.release.tar.xz
+bin-sha: bdda8b685dbbbe8f0bbdb30ef45e265f5557866bf74cea62db5ddebd38f4554c

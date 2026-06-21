@@ -1,5 +1,5 @@
 summary: A command-line tool that performs content-preserving transformations on PDF files
 webpage: https://github.com/qpdf/qpdf
 version: 12.3.2
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/qpdf-12.3.2-linux-x86_64.release.tar.xz
-bin-sha: 4abdd981cd87d16bde214e2d51ceb2836459084da9de648fa63d45eb9e13875d
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/qpdf-12.3.2-linux-x86_64.release.tar.xz
+bin-sha: 8923d5ec4335dbc664590cf4f09182ab57070383c46726c7e3b5cf34d36cdaec

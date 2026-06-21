@@ -1,5 +1,5 @@
 summary: A git-compatible distributed version control system
 webpage: https://github.com/jj-vcs/jj
 version: 0.42.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/jj-0.42.0-linux-x86_64.release.tar.xz
-bin-sha: 38855e5909f0542418eeccaa5840b28142e72030b817cfb38a5705231c4a4f7e
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/jj-0.42.0-linux-x86_64.release.tar.xz
+bin-sha: 624b60204863102ac7361233c99c4fe4da10f58e2fe5a57f7bb6b5eacfe669e9

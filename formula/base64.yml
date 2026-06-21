@@ -1,5 +1,5 @@
 summary: base64 encoder and decoder
 webpage: https://github.com/leleliu008/C-examples
-version: 2026.06.20
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/base64-2026.06.20-linux-x86_64.release.tar.xz
-bin-sha: 70daeacfc104dc26df291175b1e4f0b5ee5ca66b1bcaac847efb811eea77d517
+version: 2026.06.21
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/base64-2026.06.21-linux-x86_64.release.tar.xz
+bin-sha: 2133d548382f43415bcf4e51d4a8323060670f5e80697aa1ef776be3febe48cd

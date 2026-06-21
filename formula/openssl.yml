@@ -1,5 +1,5 @@
 summary: Cryptography and SSL/TLS Toolkit
 webpage: https://openssl-library.org/
 version: 3.6.2
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/openssl-3.6.2-linux-x86_64.release.tar.xz
-bin-sha: a5dc4ac7bf2c631d7c8ef178e462241a452b74cdbed8d69c4737b47774a68ce5
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/openssl-3.6.2-linux-x86_64.release.tar.xz
+bin-sha: ed99874c3dc2e1ccb67a406d64d4585071d0f8ce7adc399bb0181b2a133ffb81

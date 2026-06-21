@@ -1,5 +1,5 @@
 summary: A command-line tool to download videos from youtube.com
 webpage: https://github.com/kkdai/youtube
 version: 2.10.4
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/youtubedr-2.10.4-linux-x86_64.release.tar.xz
-bin-sha: 366476536a9cb518c5a359da8f7a5e4cefbcaf5dce3af11ab1bb35f17e70c599
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/youtubedr-2.10.4-linux-x86_64.release.tar.xz
+bin-sha: ec5bbee30918bd919b8f12589002e89c35966e0735e6874a0b87245e84e7ed37

@@ -1,5 +1,5 @@
 summary: A collection of command-line tools for manipulating PostScript Type 1 fonts
 webpage: https://www.lcdf.org/type/
 version: 1.42
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/t1utils-1.42-linux-x86_64.release.tar.xz
-bin-sha: 5cd8d36e8947e684ef3b2aed7eabad1ad30508d7d7cf01f4007d08342ad2b2b8
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/t1utils-1.42-linux-x86_64.release.tar.xz
+bin-sha: 27a359280291f7010b3be164820a037ef2f8623ebc6dff3cfc77fa6941334b83

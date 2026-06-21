@@ -1,5 +1,5 @@
 summary: GNU File, Shell, and Text utilities
 webpage: https://www.gnu.org/software/coreutils
 version: 9.11
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/coreutils-9.11-linux-musl-x86_64.release.tar.xz
-bin-sha: be7c46dbdf6463a4e223efb89a95fbcf421cca16517370a23ae9edf73ea489c3
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/coreutils-9.11-linux-x86_64.release.tar.xz
+bin-sha: da1f7bd4b2fc3f2f986e2ab52957860e3afa12e92f78a8447d3388a99c3661e4

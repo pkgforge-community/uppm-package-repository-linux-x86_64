@@ -1,0 +1,5 @@
+summary: Image format providing lossless and lossy compression for web images
+webpage: https://developers.google.com/speed/webp
+version: 1.6.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/webputils-1.6.0-linux-x86_64.release.tar.xz
+bin-sha: c2b20193d1d42b4820d49434d48d6b925873a005de976a977a4fcb63d98930a2

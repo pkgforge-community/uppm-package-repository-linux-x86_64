@@ -1,5 +1,5 @@
 summary: A command-line tool for interacting with SQLite databases
 webpage: https://sqlite.org/
 version: 3.51.2
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/sqlite3-3.51.2-linux-x86_64.release.tar.xz
-bin-sha: 8449ef986cd0273441f3382acbf4dc6b6e6cf36cef92a4d451fc86d9dc6ce19f
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/sqlite3-3.51.2-linux-x86_64.release.tar.xz
+bin-sha: 5f925160f929017de330a5319fa964e559e56778ebb16feb74bd1b432d27ae27

@@ -1,5 +1,5 @@
 summary: CLI client for interacting with Incus
 webpage: https://linuxcontainers.org/incus
 version: 6.4
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/incus-6.4-linux-x86_64.release.tar.xz
-bin-sha: 2e7dd2754bdc24f95017243d7c0b3275240ead04bfa7866b446c0e318e57b42f
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/incus-6.4-linux-x86_64.release.tar.xz
+bin-sha: bfa9501baf92748a07f94286e002a31b38520b12647781112b548f1b8b326723

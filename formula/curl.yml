@@ -1,5 +1,5 @@
 summary: A command-line tool for transferring data from/to an HTTP, HTTPS or FTP server
 webpage: https://curl.se/
 version: 8.20.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/curl-8.20.0-linux-x86_64.release.tar.xz
-bin-sha: 5a97c817f6b220032e5936e6c0f9c2b9e05e349e5bd0b7b9c1874277994e53b2
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/curl-8.20.0-linux-x86_64.release.tar.xz
+bin-sha: 91fc31889fe537e4a58fc9001fcdb7c0e69e2b46ece34941c9886a49e06dea14

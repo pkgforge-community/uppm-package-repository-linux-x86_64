@@ -1,5 +1,5 @@
 summary: A small man page generator
 webpage: https://sr.ht/~sircmpwn/scdoc/
 version: 1.11.4
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/scdoc-1.11.4-linux-x86_64.release.tar.xz
-bin-sha: 4b655c3a9d7c8bbfaada48c857d532c1756bf5d91389ae7860b43e07661d9253
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/scdoc-1.11.4-linux-x86_64.release.tar.xz
+bin-sha: 493fbec92dd7612b62f3db4669512582ea0c02c2cf8ba6f74364e9e1e461318a

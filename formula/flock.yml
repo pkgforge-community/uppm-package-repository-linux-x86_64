@@ -1,5 +1,5 @@
 summary: flock(1) locks files
 webpage: https://github.com/discoteq/flock
 version: 0.4.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/flock-0.4.0-linux-x86_64.release.tar.xz
-bin-sha: f32c8d2bad43b48c119754a372799ebc9971645dbcbf7b06af2c6cc927161e94
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/flock-0.4.0-linux-x86_64.release.tar.xz
+bin-sha: 6a8db6dd59a5b60924b9ae712a6efa31507e78858c4aa5dcc3eed158ba060741

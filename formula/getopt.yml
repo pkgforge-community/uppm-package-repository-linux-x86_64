@@ -1,5 +1,5 @@
 summary: A command-line option parsing utility
 webpage: https://github.com/util-linux/util-linux
 version: 2.41.3
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/getopt-2.41.3-linux-x86_64.release.tar.xz
-bin-sha: 0e962976066b34f1ddf3bdc5ab668b5cb532d334999bd98039b655a884c0bfe9
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/getopt-2.41.3-linux-x86_64.release.tar.xz
+bin-sha: 3ff5d8db0fd607abccc30acb72f89938856e20b87c248c52cd35f9df3b203e10

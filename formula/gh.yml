@@ -1,5 +1,5 @@
 summary: A command-line interface that brings github.com functionality to your terminal
 webpage: https://github.com/cli/cli
 version: 2.95.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/gh-2.95.0-linux-x86_64.release.tar.xz
-bin-sha: a7a93c80218fa3ad9796253d5468ca0f628ec18fac136fcf36fc632cf5387257
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/gh-2.95.0-linux-x86_64.release.tar.xz
+bin-sha: bdb499aff62576271af302d0f7787a673ff99bee1987623c7b9c89d2d8758a07

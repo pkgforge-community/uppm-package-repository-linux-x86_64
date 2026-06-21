@@ -1,5 +1,5 @@
 summary: A new type of shell
 webpage: https://www.nushell.sh
 version: 0.113.1
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/nushell-0.113.1-linux-musl-x86_64.release.tar.xz
-bin-sha: a615a73e467696021859e6922d21a1c418335171fb0b830beaf27b0f6cbcd9b4
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/nushell-0.113.1-linux-musl-x86_64.release.tar.xz
+bin-sha: 4799f82843fdd3b977d791179df75e446c81e0e48cbfdcbae9ac2b6d7d7988e5

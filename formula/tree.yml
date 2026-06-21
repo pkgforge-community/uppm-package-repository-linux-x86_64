@@ -1,5 +1,5 @@
 summary: Display directories as trees (with optional color/HTML output)
 webpage: https://oldmanprogrammer.net/source.php?dir=projects/tree
 version: 2.2.1
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/tree-2.2.1-linux-x86_64.release.tar.xz
-bin-sha: 044e544888079395c6b94ec28185021cc8dcea5e1c20f0cf7871d7142f415b6b
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/tree-2.2.1-linux-x86_64.release.tar.xz
+bin-sha: 68c9fca2c3b7b314d797f8725ef207a99d0310bd70d3c49fe3650cd2cde16049

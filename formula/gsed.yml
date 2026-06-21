@@ -1,5 +1,5 @@
 summary: GNU implementation of the famous stream editor
 webpage: https://www.gnu.org/software/sed
 version: 4.10
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/gsed-4.10-linux-x86_64.release.tar.xz
-bin-sha: d5dbada5cd702c573e69a4c9cac4f62ce01eac7c1afe3ca0d9340956e088a7dd
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/gsed-4.10-linux-x86_64.release.tar.xz
+bin-sha: 3b2eeb0e97ba842401af4825a39c2b9266aee5188e76f44d9305b32d4065adc8

@@ -1,5 +1,5 @@
 summary: A lightweight and flexible command-line JSON processor
 webpage: https://stedolan.github.io/jq
 version: 1.8.1
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/jq-1.8.1-linux-x86_64.release.tar.xz
-bin-sha: a8daa378a1df591621b6c0c1ffe2c0d8fbd96e7fe7a1feb5631c91424967464c
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/jq-1.8.1-linux-x86_64.release.tar.xz
+bin-sha: 4cbbe8c9161a85625192d672c6758f3b9e380ef83029c521b1f92e0cc45a7d48

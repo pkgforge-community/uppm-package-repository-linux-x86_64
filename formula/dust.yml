@@ -1,5 +1,5 @@
 summary: A more intuitive version of du(1) in rust
 webpage: https://github.com/bootandy/dust
 version: 1.0.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/dust-1.0.0-linux-x86_64.release.tar.xz
-bin-sha: 52bc66e9ac0fccf06d0db175e39bdc7d4e176bdd4ecebb0ac8e2a2074271951a
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/dust-1.0.0-linux-x86_64.release.tar.xz
+bin-sha: 0a5d91da6c32d39352826cfe1bdd5fda241453e8863955d957dff9a202015e7b

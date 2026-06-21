@@ -1,5 +1,5 @@
 summary: A command-line tool for synchronizing files
 webpage: https://rsync.samba.org/
 version: 3.4.4
-bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.20/rsync-3.4.4-linux-x86_64.release.tar.xz
-bin-sha: 201027d4462b75c8b349149ad745099baf355a5a997597c05a7ae5db22089789
+bin-url: https://github.com/leleliu008/uppm-package-repository-linux-x86_64/releases/download/2026.06.21/rsync-3.4.4-linux-x86_64.release.tar.xz
+bin-sha: 02c45061470db64b33ce512e901138f8af10ef5ae303c78eba20858a6600b3a3
